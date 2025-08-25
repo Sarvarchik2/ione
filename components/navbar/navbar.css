@@ -1,0 +1,93 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 170px;
+    height: auto;
+}
+.logo img{
+    width: 100%;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    color: #fff;
+}
+.navbar ul a{
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+.navbar ul a li{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+
+}
+.navbar ul a li:hover{
+    color: #858585;
+}
+.nav-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-btns-item{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #32C956;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-btns-item:nth-of-type(2){
+    background: #32C956;
+}
+.nav-btns-item img{
+    width: 30px;
+    height: 30px;
+}
+.menu-btn{
+    display: none;
+}
+
+
+
+
+@media (max-width: 769px) {
+    .menu-btn{
+        display: block;
+        width: 70px;
+        height: 70px;
+    }
+    .menu-btn img{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar ul{
+        display: none;
+    }
+}
+
+@media (max-width: 521px) {
+    .nav-btns-item{
+        width: 40px;
+        height: 40px;
+    }
+    .logo{
+        width: 120px;
+    }
+    .menu-btn{
+        width: 62px;
+        height: 62px;
+    }
+}
