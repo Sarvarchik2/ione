@@ -1,24 +1,24 @@
 <template>
   <div class="navbar">
-    <div class="logo">
+    <NuxtLink to="/" class="logo">
       <img src="@/assets/logo.svg" alt="IONE Logo">
-    </div>
+    </NuxtLink>
     <ul>
-      <NuxtLink>
+      <NuxtLink to="/">
         <li>О нас</li>
       </NuxtLink>
-      <NuxtLink>
+      <NuxtLink to="#services">
         <li>Услуги</li>
       </NuxtLink>
-      <NuxtLink>
+      <NuxtLink to="#works">
         <li>Кейсы</li>
       </NuxtLink>
-      <NuxtLink>
+      <NuxtLink to="/contact">
         <li>Контакты</li>
       </NuxtLink>
     </ul>
     <div class="nav-btns">
-      <NuxtLink class="nav-btns-item">
+      <NuxtLink class="nav-btns-item" >
         <img src="@/assets/navbar/phone.svg" alt="Phone">
       </NuxtLink>
       <NuxtLink class="nav-btns-item">

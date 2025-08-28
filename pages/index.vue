@@ -16,7 +16,7 @@
       </div>
     </section>
 
-    <section class="ione-main-services">
+    <section id="services" class="ione-main-services">
       <h2 class="ione-main-services-h2">01 <br> УСЛУГИ</h2>
       <div class="ione-main-services-wrapper">
         <div class="ione-main-services-wrapper-left">
@@ -85,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section class="ione-main-works">
+    <section id="works" class="ione-main-works">
       <h2 class="ione-main-services-h2">02 <br> КЕЙСЫ</h2>
       <div class="ione-main-works-wrapper">
         <div class="ione-main-works-wrapper-item">

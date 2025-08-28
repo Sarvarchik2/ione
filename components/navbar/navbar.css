@@ -8,6 +8,7 @@
 .logo{
     width: 170px;
     height: auto;
+    text-decoration: none;
 }
 .logo img{
     width: 100%;
