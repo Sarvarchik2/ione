@@ -4,26 +4,18 @@
       <img src="@/assets/logo.svg" alt="IONE Logo">
     </NuxtLink>
     <ul>
-      <NuxtLink to="/">
-        <li>О нас</li>
-      </NuxtLink>
-      <NuxtLink to="#services">
-        <li>Услуги</li>
-      </NuxtLink>
-      <NuxtLink to="#works">
-        <li>Кейсы</li>
-      </NuxtLink>
-      <NuxtLink to="/contact">
-        <li>Контакты</li>
-      </NuxtLink>
+      <NuxtLink to="/#about"><li>О нас</li></NuxtLink>
+      <NuxtLink to="/#services"><li>Услуги</li></NuxtLink>
+      <NuxtLink to="/#works"><li>Кейсы</li></NuxtLink>
+      <NuxtLink to="/contact"><li>Контакты</li></NuxtLink>
     </ul>
     <div class="nav-btns">
-      <NuxtLink class="nav-btns-item" >
+      <a class="nav-btns-item" href="tel:+998900044554" aria-label="Позвонить +998 90 004 45 54">
         <img src="@/assets/navbar/phone.svg" alt="Phone">
-      </NuxtLink>
-      <NuxtLink class="nav-btns-item">
-        <img src="@/assets/navbar/telegram.svg" alt="Telegram">
-      </NuxtLink>
+      </a>
+      <a class="nav-btns-item" href="https://www.linkedin.com/company/ione-marketing/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <img src="@/assets/navbar/link.svg" alt="LinkedIn">
+      </a>
       <div class="menu-btn">
         <img src="@/assets/navbar/menu-bar.png" alt="menu">
       </div>

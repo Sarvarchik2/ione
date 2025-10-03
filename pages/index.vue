@@ -4,12 +4,12 @@
     <h1 class="ione-main-title">Маркетинговое агентство полного цикла</h1>
     <p class="ione-main-subtitle">Быстро, <span>качественно,</span> лучше</p>
 
-    <section class="ione-main-content">
+  <section id="about" class="ione-main-content">
       <h2 class="outline-text">IONE AGENCY</h2>
 
       <div class="ione-main-content-text">
-        <h2>Проектируем функциональные сайты, сочетающие технологичность, гибкость и соответствие уникальным требованиям вашего бизнеса.</h2>
-        <NuxtLink>Оставить заявку</NuxtLink>
+  <h2>Проектируем функциональные сайты, сочетающие технологичность, гибкость и соответствие уникальным требованиям вашего бизнеса.</h2>
+  <NuxtLink to="/#contact">Оставить заявку</NuxtLink>
       </div>
       <div class="ione-main-content-img">
         <img src="@/assets/main/headerimg.svg" alt="ione">
@@ -23,23 +23,24 @@
           <div class="ione-main-services-wrapper-item ">
 
             <div class="ione-main-services-wrapper-item-text">
-              <h3>Production</h3>
-              <p>Проектируем сайты, которые не только укрепляют вашу репутацию, но и формируют долгосрочное доверие к вашему бизнесу.</p>
-              <NuxtLink>Подробнее</NuxtLink>
+              <h3>Events</h3>
+              <p>Организуем фестивали, турниры, квесты и конференции, которые не только впечатляют, но и дают измеримые результаты для бренда.
+              </p>
+              <NuxtLink to="/#contact">Подробнее</NuxtLink>
             </div>
 
             <div class="ione-main-services-wrapper-item-img">
-              <img src="@/assets/main/service1.svg" alt="Production">
+              <img src="@/assets/main/events.png" alt="Production">
             </div>
           </div>
           <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-first">
             <div class="ione-main-services-wrapper-item-img">
-              <img src="@/assets/main/service1.svg" alt="Production">
+              <img src="@/assets/main/production.png" alt="Production">
             </div>
             <div class="ione-main-services-wrapper-item-text">
               <h3>Production</h3>
-              <p>Проектируем сайты, которые не только укрепляют вашу репутацию, но и формируют долгосрочное доверие к вашему бизнесу.</p>
-              <NuxtLink>Подробнее</NuxtLink>
+              <p>Создаём сериалы для соцсетей, имиджевые и рекламные ролики с яркой идеей и креативной подачей.</p>
+              <NuxtLink to="/#contact">Подробнее</NuxtLink>
             </div>
 
 
@@ -48,12 +49,14 @@
         </div>
         <div class="ione-main-services-wrapper-right">
           <div class="ione-main-services-wrapper-right-img">
-            <img src="@/assets/main/headerimg.svg" alt="Services">
+            <img src="@/assets/main/kol.png" alt="Services">
           </div>
           <div class="ione-main-services-wrapper-item-text ione-main-services-wrapper-item-text-right">
-            <h3>Production</h3>
-            <p>Проектируем сайты, которые не только укрепляют вашу репутацию, но и формируют долгосрочное доверие к вашему бизнесу.</p>
-            <NuxtLink>Подробнее</NuxtLink>
+            <h3>KоL / Influence
+            </h3>
+            <p>Подбираем блогеров и стримеров под задачи бренда, делаем нативные интеграции и обеспечиваем доверие аудитории.
+            </p>
+            <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
         </div>
 
@@ -62,25 +65,28 @@
         <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-bottom">
 
           <div class="ione-main-services-wrapper-item-text">
-            <h3>Production</h3>
-            <p>Проектируем сайты, которые не только укрепляют вашу репутацию, но и формируют долгосрочное доверие к вашему бизнесу.</p>
-            <NuxtLink>Подробнее</NuxtLink>
+            <h3>Web-development
+            </h3>
+            <p>Разрабатываем сайты, приложения, CRM и Telegram-боты, которые удобны, стильны и эффективны для бизнеса.
+
+            </p>
+            <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
 
           <div class="ione-main-services-wrapper-item-img">
-            <img src="@/assets/main/service1.svg" alt="Production">
+            <img src="@/assets/main/web.png" alt="Production">
           </div>
         </div>
         <div class="ione-main-services-wrapper-item">
 
           <div class="ione-main-services-wrapper-item-text">
-            <h3>Production</h3>
-            <p>Проектируем сайты, которые не только укрепляют вашу репутацию, но и формируют долгосрочное доверие к вашему бизнесу.</p>
-            <NuxtLink>Подробнее</NuxtLink>
+            <h3>Digital</h3>
+            <p>SMM, SEO, контекстная реклама и Meta Ads: привлекаем целевой трафик и лиды с прозрачной аналитикой и прогнозируемым результатом.</p>
+            <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
 
           <div class="ione-main-services-wrapper-item-img">
-            <img src="@/assets/main/service1.svg" alt="Production">
+            <img src="@/assets/main/digital.png" alt="Production">
           </div>
         </div>
       </div>
@@ -90,17 +96,38 @@
       <div class="ione-main-works-wrapper">
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/headerimg.svg" alt="ione-works">
+            <img src="@/assets/main/ocean.jpg" alt="ione-works">
           </div>
           <div class="ione-main-works-wrapper-item-text">
-            <h2>MOE Community</h2>
+            <h2>OCEAN ODYSSEY 2024</h2>
 
             <div class="ione-main-works-wrapper-item-text-span">
-              <span>UI/UX Design</span>
-              <span>Разработка с нуля</span>
+              <span>Marketing</span>
+              <span>Ивент</span>
+              <span>Креатив</span>
             </div>
             <p>
-              Сайт создан для платформы SalomFit, предоставляющей информацию и продукты для поддержания здорового
+              Тематическое событие, посвящённое обновлению в PUBG MOBILE. ЦА — тинейджеры и активная молодёжь. Участие приняли более 4500 человек.
+            </p>
+          </div>
+          <NuxtLink to="https://www.instagram.com/reel/C-H4pxAvadA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
+            <img src="@/assets/arrow.png" alt="arrow">
+          </NuxtLink>
+        </div>
+        <div class="ione-main-works-wrapper-item">
+          <div class="ione-main-works-wrapper-item-img">
+            <img src="@/assets/main/korzinka.jpg" alt="ione-works">
+          </div>
+          <div class="ione-main-works-wrapper-item-text">
+            <h2>Турнир KORZINKA.UZ CYBER UP</h2>
+
+            <div class="ione-main-works-wrapper-item-text-span">
+              <span>Marketing</span>
+              <span>Организация</span>
+              <span>Турнир</span>
+            </div>
+            <p>
+             Киберспортивный турнир по Dota 2 от KORZINKA.UZ. ЦА — игроки и фанаты Dota 2. Посетили более 2500 человек.
             </p>
           </div>
           <NuxtLink to="/">
@@ -109,96 +136,82 @@
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/headerimg.svg" alt="ione-works">
+            <img src="@/assets/main/amir.jpg" alt="ione-works">
           </div>
           <div class="ione-main-works-wrapper-item-text">
-            <h2>MOE Community</h2>
+            <h2>WINTER FEST PUBG MOBILE</h2>
 
             <div class="ione-main-works-wrapper-item-text-span">
-              <span>UI/UX Design</span>
-              <span>Разработка с нуля</span>
+              <span>Менеджмент</span>
+              <span>Marketing</span>
+              <span>Ивент</span>
             </div>
             <p>
-              Сайт создан для платформы SalomFit, предоставляющей информацию и продукты для поддержания здорового
+             2-дневный зимний фестиваль PUBG MOBILE на курорте Amirsoy (декабрь 2024). ЦА — молодые активные люди, геймеры и фанаты киберспорта. Присутствовало более 9000 человек.
             </p>
           </div>
-          <NuxtLink to="/">
+          <NuxtLink to="https://www.instagram.com/reel/DEe3K4XMscy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
             <img src="@/assets/arrow.png" alt="arrow">
           </NuxtLink>
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/headerimg.svg" alt="ione-works">
+            <img src="@/assets/main/li.png" alt="ione-works">
           </div>
           <div class="ione-main-works-wrapper-item-text">
-            <h2>MOE Community</h2>
+            <h2>Lixiang Uzbekistan</h2>
 
             <div class="ione-main-works-wrapper-item-text-span">
-              <span>UI/UX Design</span>
-              <span>Разработка с нуля</span>
+              <span>UI/UX</span>
+              <span>Разработка</span>
+              <span>SEO</span>
             </div>
             <p>
-              Сайт создан для платформы SalomFit, предоставляющей информацию и продукты для поддержания здорового
+              Корпоративный сайт для представительства Lixiang в Узбекистане. Оптимизирован под продвижение бренда и удобство пользователей.
             </p>
           </div>
-          <NuxtLink to="/">
+          <NuxtLink to="https://lixiang-uzbekistan.uz/">
             <img src="@/assets/arrow.png" alt="arrow">
           </NuxtLink>
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/headerimg.svg" alt="ione-works">
+            <img src="@/assets/main/abu.png" alt="ione-works">
           </div>
           <div class="ione-main-works-wrapper-item-text">
-            <h2>MOE Community</h2>
+            <h2>Abuexpress </h2>
 
             <div class="ione-main-works-wrapper-item-text-span">
-              <span>UI/UX Design</span>
-              <span>Разработка с нуля</span>
+              <span>UI/UX </span>
+              <span>Разработка</span>
+              <span>SEO</span>
+
             </div>
             <p>
-              Сайт создан для платформы SalomFit, предоставляющей информацию и продукты для поддержания здорового
+              Платформа для экспресс-доставки. Реализована удобная навигация, адаптивный дизайн и SEO-оптимизация для роста заказов.
             </p>
           </div>
-          <NuxtLink to="/">
+          <NuxtLink to="https://abuexpress.uz/ru">
             <img src="@/assets/arrow.png" alt="arrow">
           </NuxtLink>
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/headerimg.svg" alt="ione-works">
+            <img src="@/assets/main/tur.png" alt="ione-works">
           </div>
           <div class="ione-main-works-wrapper-item-text">
-            <h2>MOE Community</h2>
+            <h2>Magic Tour</h2>
 
             <div class="ione-main-works-wrapper-item-text-span">
-              <span>UI/UX Design</span>
-              <span>Разработка с нуля</span>
+              <span>UI/UX </span>
+               <span>Разработка</span>
+              <span>SEO</span>
             </div>
             <p>
-              Сайт создан для платформы SalomFit, предоставляющей информацию и продукты для поддержания здорового
+               Сайт туристической компании с акцентом на бронирование и информирование клиентов. Удобный интерфейс и оптимизация под поисковые системы.
             </p>
           </div>
-          <NuxtLink to="/">
-            <img src="@/assets/arrow.png" alt="arrow">
-          </NuxtLink>
-        </div>
-        <div class="ione-main-works-wrapper-item">
-          <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/headerimg.svg" alt="ione-works">
-          </div>
-          <div class="ione-main-works-wrapper-item-text">
-            <h2>MOE Community</h2>
-
-            <div class="ione-main-works-wrapper-item-text-span">
-              <span>UI/UX Design</span>
-              <span>Разработка с нуля</span>
-            </div>
-            <p>
-              Сайт создан для платформы SalomFit, предоставляющей информацию и продукты для поддержания здорового
-            </p>
-          </div>
-          <NuxtLink to="/">
+          <NuxtLink to="http://magic-tour.uz/">
             <img src="@/assets/arrow.png" alt="arrow">
           </NuxtLink>
         </div>
@@ -207,52 +220,53 @@
     </section>
 
     <section class="ione-main-clients">
-      <h2 class="ione-main-services-h2">03.2 <br> НАШИ КЛИЕНТЫ</h2>
+      <h2 class="ione-main-services-h2">03 <br> НАШИ КЛИЕНТЫ</h2>
 
       <div class="ione-main-clients-wrapper">
         <h2 class="ione-main-clients-wrapper-item">
-          CA.store
+          PubGmobile
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          AKFA
+          IT Park
+
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          MIRO STORE
+          Samsung
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          INOE`s
+          Uzum
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Makro
+          FlashEnergy
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          store sote
+          Korzinka
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          JASECORE
+          Amirsoy
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          CA.store
+          Яндекс
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          MELS
+          Honor
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Loeeeeee
+          Mi
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Canta
+          Westminster
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Link
+          Министерство цифровых технологий
         </h2>
 
       </div>
     </section>
 
-    <section class="ione-main-contact">
+  <section id="contact" class="ione-main-contact">
       <h2 class="ione-main-services-h2">04 <br> ЕСТЬ ВОПРОСЫ?</h2>
-      <p class="ione-main-contact-p">Оставьте заявку или напишите нам в Telegram, <br> и мы с удовольствием поможем вам разобраться в вашем кейсе</p>
+  <p class="ione-main-contact-p">Оставьте заявку или позвоните нам, <br> и мы с удовольствием поможем вам разобраться в вашем кейсе</p>
 
       <Contact />
     </section>
