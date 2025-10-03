@@ -36,8 +36,8 @@ export default defineEventHandler(async (event: H3Event) => {
   }
 
   const config = useRuntimeConfig()
-  const token = config.telegramBotToken
-  const chatId = config.telegramChatId
+  const token = config.telegramBotToken || process.env.NUXT_TELEGRAM_BOT_TOKEN
+  const chatId = config.telegramChatId || process.env.NUXT_TELEGRAM_CHAT_ID
 
   const missing: string[] = []
   if (!token) missing.push('NUXT_TELEGRAM_BOT_TOKEN')
