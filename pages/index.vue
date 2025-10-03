@@ -1,43 +1,43 @@
 <template>
   <div class="ione-main">
-    <h2 class="ione-main-h2">IONE <br> age <br> ncy</h2>
-    <h1 class="ione-main-title">Маркетинговое агентство полного цикла</h1>
-    <p class="ione-main-subtitle">Быстро, <span>качественно,</span> лучше</p>
+  <h2 class="ione-main-h2" >IONE <br> age <br> ncy</h2>
+  <h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла</h1>
+  <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Быстро, <span>качественно,</span> лучше</p>
 
   <section id="about" class="ione-main-content">
-      <h2 class="outline-text">IONE AGENCY</h2>
+  <h2 class="outline-text" v-reveal="'left'">IONE AGENCY</h2>
 
-      <div class="ione-main-content-text">
+  <div class="ione-main-content-text" v-reveal>
   <h2>Проектируем функциональные сайты, сочетающие технологичность, гибкость и соответствие уникальным требованиям вашего бизнеса.</h2>
   <NuxtLink to="/#contact">Оставить заявку</NuxtLink>
       </div>
-      <div class="ione-main-content-img">
-        <img src="@/assets/main/headerimg.svg" alt="ione">
+  <div class="ione-main-content-img" v-reveal="'right'">
+  <img src="@/assets/main/headerimg.svg" alt="ione" loading="lazy" decoding="async">
       </div>
     </section>
 
     <section id="services" class="ione-main-services">
-      <h2 class="ione-main-services-h2">01 <br> УСЛУГИ</h2>
+  <h2 class="ione-main-services-h2" v-reveal>01 <br> УСЛУГИ</h2>
       <div class="ione-main-services-wrapper">
         <div class="ione-main-services-wrapper-left">
-          <div class="ione-main-services-wrapper-item ">
+          <div class="ione-main-services-wrapper-item " v-reveal>
 
-            <div class="ione-main-services-wrapper-item-text">
+            <div class="ione-main-services-wrapper-item-text" v-reveal>
               <h3>Events</h3>
               <p>Организуем фестивали, турниры, квесты и конференции, которые не только впечатляют, но и дают измеримые результаты для бренда.
               </p>
               <NuxtLink to="/#contact">Подробнее</NuxtLink>
             </div>
 
-            <div class="ione-main-services-wrapper-item-img">
-              <img src="@/assets/main/events.png" alt="Production">
+            <div class="ione-main-services-wrapper-item-img" v-reveal="'right'">
+              <img src="@/assets/main/events.png" alt="Production" loading="lazy" decoding="async">
             </div>
           </div>
-          <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-first">
-            <div class="ione-main-services-wrapper-item-img">
-              <img src="@/assets/main/production.png" alt="Production">
+          <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-first" v-reveal>
+            <div class="ione-main-services-wrapper-item-img" v-reveal>
+              <img src="@/assets/main/production.png" alt="Production" loading="lazy" decoding="async">
             </div>
-            <div class="ione-main-services-wrapper-item-text">
+            <div class="ione-main-services-wrapper-item-text" v-reveal="'right'">
               <h3>Production</h3>
               <p>Создаём сериалы для соцсетей, имиджевые и рекламные ролики с яркой идеей и креативной подачей.</p>
               <NuxtLink to="/#contact">Подробнее</NuxtLink>
@@ -47,11 +47,11 @@
           </div>
 
         </div>
-        <div class="ione-main-services-wrapper-right">
-          <div class="ione-main-services-wrapper-right-img">
-            <img src="@/assets/main/kol.png" alt="Services">
+  <div class="ione-main-services-wrapper-right" v-reveal>
+          <div class="ione-main-services-wrapper-right-img" v-reveal>
+            <img src="@/assets/main/kol.png" alt="Services" loading="lazy" decoding="async">
           </div>
-          <div class="ione-main-services-wrapper-item-text ione-main-services-wrapper-item-text-right">
+          <div class="ione-main-services-wrapper-item-text ione-main-services-wrapper-item-text-right" v-reveal="'left'">
             <h3>KоL / Influence
             </h3>
             <p>Подбираем блогеров и стримеров под задачи бренда, делаем нативные интеграции и обеспечиваем доверие аудитории.
@@ -61,10 +61,10 @@
         </div>
 
       </div>
-      <div class="ione-main-services-wrapper-bottom">
-        <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-bottom">
+  <div class="ione-main-services-wrapper-bottom" v-reveal>
+  <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-bottom" v-reveal>
 
-          <div class="ione-main-services-wrapper-item-text">
+          <div class="ione-main-services-wrapper-item-text" v-reveal>
             <h3>Web-development
             </h3>
             <p>Разрабатываем сайты, приложения, CRM и Telegram-боты, которые удобны, стильны и эффективны для бизнеса.
@@ -73,30 +73,30 @@
             <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
 
-          <div class="ione-main-services-wrapper-item-img">
-            <img src="@/assets/main/web.png" alt="Production">
+          <div class="ione-main-services-wrapper-item-img" v-reveal>
+            <img src="@/assets/main/web.png" alt="Production" loading="lazy" decoding="async">
           </div>
         </div>
-        <div class="ione-main-services-wrapper-item">
+  <div class="ione-main-services-wrapper-item" v-reveal>
 
-          <div class="ione-main-services-wrapper-item-text">
+          <div class="ione-main-services-wrapper-item-text" v-reveal="'left'">
             <h3>Digital</h3>
             <p>SMM, SEO, контекстная реклама и Meta Ads: привлекаем целевой трафик и лиды с прозрачной аналитикой и прогнозируемым результатом.</p>
             <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
 
-          <div class="ione-main-services-wrapper-item-img">
-            <img src="@/assets/main/digital.png" alt="Production">
+          <div class="ione-main-services-wrapper-item-img" v-reveal>
+            <img src="@/assets/main/digital.png" alt="Production" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
     </section>
-    <section id="works" class="ione-main-works">
+  <section id="works" class="ione-main-works" v-reveal>
       <h2 class="ione-main-services-h2">02 <br> КЕЙСЫ</h2>
-      <div class="ione-main-works-wrapper">
+  <div class="ione-main-works-wrapper" v-reveal>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/ocean.jpg" alt="ione-works">
+            <img src="@/assets/main/ocean.jpg" alt="ione-works" loading="lazy" decoding="async">
           </div>
           <div class="ione-main-works-wrapper-item-text">
             <h2>OCEAN ODYSSEY 2024</h2>
@@ -116,7 +116,7 @@
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/korzinka.jpg" alt="ione-works">
+            <img src="@/assets/main/korzinka.jpg" alt="ione-works" loading="lazy" decoding="async">
           </div>
           <div class="ione-main-works-wrapper-item-text">
             <h2>Турнир KORZINKA.UZ CYBER UP</h2>
@@ -136,7 +136,7 @@
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/amir.jpg" alt="ione-works">
+            <img src="@/assets/main/amir.jpg" alt="ione-works" loading="lazy" decoding="async">
           </div>
           <div class="ione-main-works-wrapper-item-text">
             <h2>WINTER FEST PUBG MOBILE</h2>
@@ -156,7 +156,7 @@
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/li.png" alt="ione-works">
+            <img src="@/assets/main/li.png" alt="ione-works" loading="lazy" decoding="async">
           </div>
           <div class="ione-main-works-wrapper-item-text">
             <h2>Lixiang Uzbekistan</h2>
@@ -176,7 +176,7 @@
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/abu.png" alt="ione-works">
+            <img src="@/assets/main/abu.png" alt="ione-works" loading="lazy" decoding="async">
           </div>
           <div class="ione-main-works-wrapper-item-text">
             <h2>Abuexpress </h2>
@@ -197,7 +197,7 @@
         </div>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
-            <img src="@/assets/main/tur.png" alt="ione-works">
+            <img src="@/assets/main/tur.png" alt="ione-works" loading="lazy" decoding="async">
           </div>
           <div class="ione-main-works-wrapper-item-text">
             <h2>Magic Tour</h2>
@@ -220,9 +220,9 @@
     </section>
 
     <section class="ione-main-clients">
-      <h2 class="ione-main-services-h2">03 <br> НАШИ КЛИЕНТЫ</h2>
+      <h2 class="ione-main-services-h2" v-reveal>03 <br> НАШИ КЛИЕНТЫ</h2>
 
-      <div class="ione-main-clients-wrapper">
+      <div class="ione-main-clients-wrapper" v-reveal>
         <h2 class="ione-main-clients-wrapper-item">
           PubGmobile
         </h2>
@@ -265,10 +265,12 @@
     </section>
 
   <section id="contact" class="ione-main-contact">
-      <h2 class="ione-main-services-h2">04 <br> ЕСТЬ ВОПРОСЫ?</h2>
-  <p class="ione-main-contact-p">Оставьте заявку или позвоните нам, <br> и мы с удовольствием поможем вам разобраться в вашем кейсе</p>
+      <h2 class="ione-main-services-h2" v-reveal>04 <br> ЕСТЬ ВОПРОСЫ?</h2>
+  <p class="ione-main-contact-p" v-reveal="{ delay: 100 }">Оставьте заявку или позвоните нам, <br> и мы с удовольствием поможем вам разобраться в вашем кейсе</p>
 
-      <Contact />
+      <div v-reveal>
+        <Contact />
+      </div>
     </section>
   </div>
 </template>
@@ -278,4 +280,10 @@
 @import './index.css';
 </style>
 <script setup lang="ts">
+import { useSeo } from '@/composables/useSeo'
+useSeo({
+  title: 'Главная',
+  description: 'Полный цикл маркетинга: Events, Production, KOL/Influence, Web-development, Digital. Создаём решения для роста бизнеса.',
+  canonicalPath: '/'
+})
 </script>
