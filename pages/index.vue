@@ -4,7 +4,7 @@
   <h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла</h1>
   <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Быстро, <span>качественно,</span> лучше</p>
 
-  <section id="about" class="ione-main-content">
+  <section class="ione-main-content">
   <h2 class="outline-text" v-reveal="'left'">IONE AGENCY</h2>
 
   <div class="ione-main-content-text" v-reveal>
@@ -219,7 +219,7 @@
       </div>
     </section>
 
-    <section class="ione-main-about">
+    <section class="ione-main-about" id="about">
       <h2 class="ione-main-services-h2" v-reveal>03 <br> О НАС</h2>
       <div class="ione-main-about-container">
         <div class="ione-main-about-left" v-reveal>
