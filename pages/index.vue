@@ -219,8 +219,59 @@
       </div>
     </section>
 
+    <section class="ione-main-about">
+      <h2 class="ione-main-services-h2" v-reveal>03 <br> О НАС</h2>
+      <div class="ione-main-about-container">
+        <div class="ione-main-about-left" v-reveal>
+          <div class="ione-main-about-content">
+            <h2 class="ione-main-about-title">Помогаем вашему бизнесу развиваться <span>быстрее</span></h2>
+            <p class="ione-main-about-description">Мы — агентство полного цикла, сосредоточенное на синергии креатива и эффективности. Превращаем идеи в сильные проекты: от продвижения и влиятелей до масштабных ивентов и диджитала. Работаем системно, думаем стратегически, делаем эффектно.</p>
+            
+            <div class="ione-main-about-stats">
+              <div class="ione-main-about-stat">
+                <span class="stat-number">+3</span>
+                <p>Имеем более 3 лет экспертного опыта в области автоматизации бизнес-процессов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ione-main-about-right" v-reveal="'right'">
+          <div class="ione-main-about-robot">
+            <img src="@/assets/main/about.svg" alt="Робот IONE" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <div class="ione-main-about-features" v-reveal>
+        <div class="ione-main-about-feature" v-reveal>
+          <div class="feature-icon">
+            <img src="@/assets/user.svg" alt="Опыт" loading="lazy" decoding="async">
+          </div>
+          <h4>Опыт</h4>
+          <p>Подходим системно: создаем решения, которые гармонично работают внутри вашей бизнес-структуры.</p>
+        </div>
+        
+        <div class="ione-main-about-feature" v-reveal="{ delay: 100 }">
+          <div class="feature-icon">
+            <img src="@/assets/round.svg" alt="Фокус" loading="lazy" decoding="async">
+          </div>
+          <h4>Фокус</h4>
+          <p>Концентрируемся на результате и работающей стратегии именно для вашего бренда.</p>
+        </div>
+        
+        <div class="ione-main-about-feature" v-reveal="{ delay: 200 }">
+          <div class="feature-icon">
+            <img src="@/assets/graph.svg" alt="Стратегия" loading="lazy" decoding="async">
+          </div>
+          <h4>Стратегия</h4>
+          <p>Разрабатываем инструменты, которые поддерживают стратегические цели компании</p>
+        </div>
+      </div>
+    </section>
+
     <section class="ione-main-clients">
-      <h2 class="ione-main-services-h2" v-reveal>03 <br> НАШИ КЛИЕНТЫ</h2>
+      <h2 class="ione-main-services-h2" v-reveal>04 <br> НАШИ КЛИЕНТЫ</h2>
 
       <div class="ione-main-clients-wrapper" v-reveal>
         <h2 class="ione-main-clients-wrapper-item">
@@ -265,7 +316,7 @@
     </section>
 
   <section id="contact" class="ione-main-contact">
-      <h2 class="ione-main-services-h2" v-reveal>04 <br> ЕСТЬ ВОПРОСЫ?</h2>
+      <h2 class="ione-main-services-h2" v-reveal>05 <br> ЕСТЬ ВОПРОСЫ?</h2>
   <p class="ione-main-contact-p" v-reveal="{ delay: 100 }">Оставьте заявку или позвоните нам, <br> и мы с удовольствием поможем вам разобраться в вашем кейсе</p>
 
       <div v-reveal>

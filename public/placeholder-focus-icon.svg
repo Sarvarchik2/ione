@@ -1,0 +1,9 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <!-- Иконка "Фокус" - мишень -->
+  <circle cx="15" cy="15" r="12" fill="none" stroke="white" stroke-width="1.5"/>
+  <circle cx="15" cy="15" r="8" fill="none" stroke="white" stroke-width="1.5"/>
+  <circle cx="15" cy="15" r="4" fill="white"/>
+  <circle cx="15" cy="15" r="2" fill="#32C956"/>
+  <!-- Стрелка в центр -->
+  <path d="M8 8 L15 15 M15 15 L12 12 M15 15 L12 18" stroke="#32C956" stroke-width="1.5" fill="none"/>
+</svg>
