@@ -1,30 +1,36 @@
 <template>
   <div class="ione-main">
-  <h2 class="ione-main-h2" >IONE <br> age <br> ncy</h2>
-  <h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла</h1>
-  <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Быстро, <span>качественно,</span> лучше</p>
+    <h2 class="ione-main-h2 ione-main-h2-pc">IONE <br> age <br> ncy</h2>
+    <h2 class="ione-main-h2 ione-main-h2-mobile">IONE AGENCY</h2>
+    <section class="ione-main-header">
+<h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла   <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Быстро, <span>качественно,</span> лучше</p></h1>
+  
 
-  <section class="ione-main-content">
-  <h2 class="outline-text" v-reveal="'left'">IONE AGENCY</h2>
+    <section class="ione-main-content">
+      <h2 class="outline-text" v-reveal="'left'">IONE AGENCY</h2>
 
-  <div class="ione-main-content-text" v-reveal>
-  <h2>Проектируем функциональные сайты, сочетающие технологичность, гибкость и соответствие уникальным требованиям вашего бизнеса.</h2>
-  <NuxtLink to="/#contact">Оставить заявку</NuxtLink>
+      <div class="ione-main-content-text" v-reveal>
+        <h2>Проектируем функциональные сайты, сочетающие технологичность, гибкость и соответствие уникальным требованиям
+          вашего бизнеса.</h2>
+        <NuxtLink to="/#contact">Оставить заявку</NuxtLink>
       </div>
-  <div class="ione-main-content-img" v-reveal="'right'">
-  <img src="@/assets/main/headerimg.svg" alt="ione" loading="lazy" decoding="async">
+      <div class="ione-main-content-img" v-reveal="'right'">
+        <img src="@/assets/main/headerimg.svg" alt="ione" loading="lazy" decoding="async">
       </div>
     </section>
+    </section>
+    
 
     <section id="services" class="ione-main-services">
-  <h2 class="ione-main-services-h2" v-reveal>01 <br> УСЛУГИ</h2>
+      <h2 class="ione-main-services-h2" v-reveal>01 <br> УСЛУГИ</h2>
       <div class="ione-main-services-wrapper">
         <div class="ione-main-services-wrapper-left">
           <div class="ione-main-services-wrapper-item " v-reveal>
 
             <div class="ione-main-services-wrapper-item-text" v-reveal>
               <h3>Events</h3>
-              <p>Организуем фестивали, турниры, квесты и конференции, которые не только впечатляют, но и дают измеримые результаты для бренда.
+              <p>Организуем фестивали, турниры, квесты и конференции, которые не только впечатляют, но и дают измеримые
+                результаты для бренда.
               </p>
               <NuxtLink to="/#contact">Подробнее</NuxtLink>
             </div>
@@ -47,22 +53,24 @@
           </div>
 
         </div>
-  <div class="ione-main-services-wrapper-right" v-reveal>
+        <div class="ione-main-services-wrapper-right" v-reveal>
           <div class="ione-main-services-wrapper-right-img" v-reveal>
             <img src="@/assets/main/kol.png" alt="Services" loading="lazy" decoding="async">
           </div>
-          <div class="ione-main-services-wrapper-item-text ione-main-services-wrapper-item-text-right" v-reveal="'left'">
+          <div class="ione-main-services-wrapper-item-text ione-main-services-wrapper-item-text-right"
+            v-reveal="'left'">
             <h3>KоL / Influence
             </h3>
-            <p>Подбираем блогеров и стримеров под задачи бренда, делаем нативные интеграции и обеспечиваем доверие аудитории.
+            <p>Подбираем блогеров и стримеров под задачи бренда, делаем нативные интеграции и обеспечиваем доверие
+              аудитории.
             </p>
             <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
         </div>
 
       </div>
-  <div class="ione-main-services-wrapper-bottom" v-reveal>
-  <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-bottom" v-reveal>
+      <div class="ione-main-services-wrapper-bottom" v-reveal>
+        <div class="ione-main-services-wrapper-item ione-main-services-wrapper-item-bottom" v-reveal>
 
           <div class="ione-main-services-wrapper-item-text" v-reveal>
             <h3>Web-development
@@ -77,11 +85,12 @@
             <img src="@/assets/main/web.png" alt="Production" loading="lazy" decoding="async">
           </div>
         </div>
-  <div class="ione-main-services-wrapper-item" v-reveal>
+        <div class="ione-main-services-wrapper-item" v-reveal>
 
           <div class="ione-main-services-wrapper-item-text" v-reveal="'left'">
             <h3>Digital</h3>
-            <p>SMM, SEO, контекстная реклама и Meta Ads: привлекаем целевой трафик и лиды с прозрачной аналитикой и прогнозируемым результатом.</p>
+            <p>SMM, SEO, контекстная реклама и Meta Ads: привлекаем целевой трафик и лиды с прозрачной аналитикой и
+              прогнозируемым результатом.</p>
             <NuxtLink to="/#contact">Подробнее</NuxtLink>
           </div>
 
@@ -91,9 +100,9 @@
         </div>
       </div>
     </section>
-  <section id="works" class="ione-main-works" v-reveal>
+    <section id="works" class="ione-main-works" v-reveal>
       <h2 class="ione-main-services-h2">02 <br> КЕЙСЫ</h2>
-  <div class="ione-main-works-wrapper" v-reveal>
+      <div class="ione-main-works-wrapper" v-reveal>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
             <img src="@/assets/main/ocean.jpg" alt="ione-works" loading="lazy" decoding="async">
@@ -107,10 +116,12 @@
               <span>Креатив</span>
             </div>
             <p>
-              Тематическое событие, посвящённое обновлению в PUBG MOBILE. ЦА — тинейджеры и активная молодёжь. Участие приняли более 4500 человек.
+              Тематическое событие, посвящённое обновлению в PUBG MOBILE. ЦА — тинейджеры и активная молодёжь. Участие
+              приняли более 4500 человек.
             </p>
           </div>
-          <NuxtLink to="https://www.instagram.com/reel/C-H4pxAvadA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
+          <NuxtLink
+            to="https://www.instagram.com/reel/C-H4pxAvadA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
             <img src="@/assets/arrow.png" alt="arrow">
           </NuxtLink>
         </div>
@@ -127,7 +138,7 @@
               <span>Турнир</span>
             </div>
             <p>
-             Киберспортивный турнир по Dota 2 от KORZINKA.UZ. ЦА — игроки и фанаты Dota 2. Посетили более 2500 человек.
+              Киберспортивный турнир по Dota 2 от KORZINKA.UZ. ЦА — игроки и фанаты Dota 2. Посетили более 2500 человек.
             </p>
           </div>
           <NuxtLink to="/">
@@ -147,10 +158,12 @@
               <span>Ивент</span>
             </div>
             <p>
-             2-дневный зимний фестиваль PUBG MOBILE на курорте Amirsoy (декабрь 2024). ЦА — молодые активные люди, геймеры и фанаты киберспорта. Присутствовало более 9000 человек.
+              2-дневный зимний фестиваль PUBG MOBILE на курорте Amirsoy (декабрь 2024). ЦА — молодые активные люди,
+              геймеры и фанаты киберспорта. Присутствовало более 9000 человек.
             </p>
           </div>
-          <NuxtLink to="https://www.instagram.com/reel/DEe3K4XMscy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
+          <NuxtLink
+            to="https://www.instagram.com/reel/DEe3K4XMscy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
             <img src="@/assets/arrow.png" alt="arrow">
           </NuxtLink>
         </div>
@@ -167,7 +180,8 @@
               <span>SEO</span>
             </div>
             <p>
-              Корпоративный сайт для представительства Lixiang в Узбекистане. Оптимизирован под продвижение бренда и удобство пользователей.
+              Корпоративный сайт для представительства Lixiang в Узбекистане. Оптимизирован под продвижение бренда и
+              удобство пользователей.
             </p>
           </div>
           <NuxtLink to="https://lixiang-uzbekistan.uz/">
@@ -188,7 +202,8 @@
 
             </div>
             <p>
-              Платформа для экспресс-доставки. Реализована удобная навигация, адаптивный дизайн и SEO-оптимизация для роста заказов.
+              Платформа для экспресс-доставки. Реализована удобная навигация, адаптивный дизайн и SEO-оптимизация для
+              роста заказов.
             </p>
           </div>
           <NuxtLink to="https://abuexpress.uz/ru">
@@ -204,11 +219,12 @@
 
             <div class="ione-main-works-wrapper-item-text-span">
               <span>UI/UX </span>
-               <span>Разработка</span>
+              <span>Разработка</span>
               <span>SEO</span>
             </div>
             <p>
-               Сайт туристической компании с акцентом на бронирование и информирование клиентов. Удобный интерфейс и оптимизация под поисковые системы.
+              Сайт туристической компании с акцентом на бронирование и информирование клиентов. Удобный интерфейс и
+              оптимизация под поисковые системы.
             </p>
           </div>
           <NuxtLink to="http://magic-tour.uz/">
@@ -225,8 +241,10 @@
         <div class="ione-main-about-left" v-reveal>
           <div class="ione-main-about-content">
             <h2 class="ione-main-about-title">Помогаем вашему бизнесу развиваться <span>быстрее</span></h2>
-            <p class="ione-main-about-description">Мы — агентство полного цикла, сосредоточенное на синергии креатива и эффективности. Превращаем идеи в сильные проекты: от продвижения и влиятелей до масштабных ивентов и диджитала. Работаем системно, думаем стратегически, делаем эффектно.</p>
-            
+            <p class="ione-main-about-description">Мы — агентство полного цикла, сосредоточенное на синергии креатива и
+              эффективности. Превращаем идеи в сильные проекты: от продвижения и влиятелей до масштабных ивентов и
+              диджитала. Работаем системно, думаем стратегически, делаем эффектно.</p>
+
             <div class="ione-main-about-stats">
               <div class="ione-main-about-stat">
                 <span class="stat-number">+3</span>
@@ -235,7 +253,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="ione-main-about-right" v-reveal="'right'">
           <div class="ione-main-about-robot">
             <img src="@/assets/main/about.svg" alt="Робот IONE" loading="lazy" decoding="async">
@@ -251,7 +269,7 @@
           <h4>Опыт</h4>
           <p>Подходим системно: создаем решения, которые гармонично работают внутри вашей бизнес-структуры.</p>
         </div>
-        
+
         <div class="ione-main-about-feature" v-reveal="{ delay: 100 }">
           <div class="feature-icon">
             <img src="@/assets/round.svg" alt="Фокус" loading="lazy" decoding="async">
@@ -259,7 +277,7 @@
           <h4>Фокус</h4>
           <p>Концентрируемся на результате и работающей стратегии именно для вашего бренда.</p>
         </div>
-        
+
         <div class="ione-main-about-feature" v-reveal="{ delay: 200 }">
           <div class="feature-icon">
             <img src="@/assets/graph.svg" alt="Стратегия" loading="lazy" decoding="async">
@@ -315,9 +333,10 @@
       </div>
     </section>
 
-  <section id="contact" class="ione-main-contact">
+    <section id="contact" class="ione-main-contact">
       <h2 class="ione-main-services-h2" v-reveal>05 <br> ЕСТЬ ВОПРОСЫ?</h2>
-  <p class="ione-main-contact-p" v-reveal="{ delay: 100 }">Оставьте заявку или позвоните нам, <br> и мы с удовольствием поможем вам разобраться в вашем кейсе</p>
+      <p class="ione-main-contact-p" v-reveal="{ delay: 100 }">Оставьте заявку или позвоните нам, <br> и мы с
+        удовольствием поможем вам разобраться в вашем кейсе</p>
 
       <div v-reveal>
         <Contact />
