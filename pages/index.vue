@@ -3,15 +3,14 @@
     <h2 class="ione-main-h2 ione-main-h2-pc">IONE <br> age <br> ncy</h2>
     <h2 class="ione-main-h2 ione-main-h2-mobile">IONE AGENCY</h2>
     <section class="ione-main-header">
-<h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла   <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Быстро, <span>качественно,</span> лучше</p></h1>
+    <h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла   <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Нестандартно, <span>Эффективно,</span> Масштабно</p></h1>
   
 
     <section class="ione-main-content">
       <h2 class="outline-text" v-reveal="'left'">IONE AGENCY</h2>
 
       <div class="ione-main-content-text" v-reveal>
-        <h2>Проектируем функциональные сайты, сочетающие технологичность, гибкость и соответствие уникальным требованиям
-          вашего бизнеса.</h2>
+        <h2>Мы разрабатываем и реализуем проекты, которые помогают брендам быть заметными, понятными и интересными своей аудитории.</h2>
         <NuxtLink to="/#contact">Оставить заявку</NuxtLink>
       </div>
       <div class="ione-main-content-img" v-reveal="'right'">
