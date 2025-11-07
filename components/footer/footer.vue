@@ -28,7 +28,7 @@
     </ul>
   <ul class="footer-item" v-reveal>
       <h2>Контакты</h2>
-      <li>Номер телефона <a href="tel:+99890044554">+998 90 004 45 54</a></li>
+  <li>Номер телефона <a href="tel:+998909029898">+998 90 902 98 98</a></li>
       <li>Электронная почта <a href="mailto:ionemarketinguz@gmail.com">ionemarketinguz@gmail.com</a></li>
     </ul>
   </div>

@@ -7,9 +7,9 @@
         потребности вашего бизнеса и подберем оптимальные варианты</p>
       <div class="contact-left-link">
         <div class="contact-left-link-phone">
-          <a href="tel:+998900044554">
+          <a href="tel:+998909029898">
             <span>Телефон номер</span>
-            +998 90 004 45 54
+            +998 90 902 98 98
           </a>
           <a href="tel:+998903580838">
             <span>Телефон номер</span>

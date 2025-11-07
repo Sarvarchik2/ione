@@ -10,7 +10,7 @@
       <NuxtLink to="/contact"><li>Контакты</li></NuxtLink>
     </ul>
     <div class="nav-btns">
-      <a class="nav-btns-item" href="tel:+998900044554" aria-label="Позвонить +998 90 004 45 54">
+      <a class="nav-btns-item" href="tel:+998909029898" aria-label="Позвонить +998 90 902 98 98">
         <img src="@/assets/navbar/phone.svg" alt="Phone" loading="lazy" decoding="async">
       </a>
       <a class="nav-btns-item" href="https://www.linkedin.com/company/ione-marketing/" target="_blank" rel="noopener" aria-label="LinkedIn">
@@ -58,9 +58,9 @@
 
         <div class="mobile-menu-footer">
           <div class="mobile-contacts">
-            <a href="tel:+998900044554" class="mobile-contact-item">
+            <a href="tel:+998909029898" class="mobile-contact-item">
               <img src="@/assets/navbar/phone.svg" alt="Phone">
-              <span>+998 90 004 45 54</span>
+                <span>+998 90 902 98 98</span>
             </a>
             <a href="https://www.linkedin.com/company/ione-marketing/" target="_blank" class="mobile-contact-item">
               <img src="@/assets/navbar/link.svg" alt="LinkedIn">

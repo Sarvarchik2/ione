@@ -107,7 +107,7 @@
     .ione-main-services-h2 {
         font-size: 166px;
         font-weight: 700;
-        color: #555555;
+        color: #fff;
     }
     
     .ione-main-services-wrapper {
@@ -552,6 +552,13 @@
         align-items: center;
         justify-content: center;
         height: 112px;
+    }
+    .ione-main-clients-wrapper-item img{
+        height: 70px;
+    }
+    
+     .ione-main-clients-wrapper-item-img{
+        height: 45px!important;
     }
     
     .ione-main-contact {

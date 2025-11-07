@@ -1,6 +1,6 @@
 <template>
   <div class="ione-main">
-    <h2 class="ione-main-h2 ione-main-h2-pc">IONE <br> age <br> ncy</h2>
+    <h2 class="ione-main-h2 ione-main-h2-pc">IONE AGENCY</h2>
     <h2 class="ione-main-h2 ione-main-h2-mobile">IONE AGENCY</h2>
     <section class="ione-main-header">
     <h1 class="ione-main-title" v-reveal>Маркетинговое агентство полного цикла   <p class="ione-main-subtitle" v-reveal="{ delay: 100 }">Нестандартно, <span>Эффективно,</span> Масштабно</p></h1>
@@ -21,7 +21,7 @@
     
 
     <section id="services" class="ione-main-services">
-      <h2 class="ione-main-services-h2" v-reveal>01 <br> УСЛУГИ</h2>
+      <h2 class="ione-main-services-h2" v-reveal>УСЛУГИ</h2>
       <div class="ione-main-services-wrapper">
         <div class="ione-main-services-wrapper-left">
           <div class="ione-main-services-wrapper-item " v-reveal>
@@ -100,7 +100,7 @@
       </div>
     </section>
     <section id="works" class="ione-main-works" v-reveal>
-      <h2 class="ione-main-services-h2">02 <br> КЕЙСЫ</h2>
+      <h2 class="ione-main-services-h2">КЕЙСЫ</h2>
       <div class="ione-main-works-wrapper" v-reveal>
         <div class="ione-main-works-wrapper-item">
           <div class="ione-main-works-wrapper-item-img">
@@ -235,7 +235,7 @@
     </section>
 
     <section class="ione-main-about" id="about">
-      <h2 class="ione-main-services-h2" v-reveal>03 <br> О НАС</h2>
+      <h2 class="ione-main-services-h2" v-reveal>О НАС</h2>
       <div class="ione-main-about-container">
         <div class="ione-main-about-left" v-reveal>
           <div class="ione-main-about-content">
@@ -288,52 +288,52 @@
     </section>
 
     <section class="ione-main-clients">
-      <h2 class="ione-main-services-h2" v-reveal>04 <br> НАШИ КЛИЕНТЫ</h2>
+      <h2 class="ione-main-services-h2" v-reveal>НАШИ КЛИЕНТЫ</h2>
 
       <div class="ione-main-clients-wrapper" v-reveal>
         <h2 class="ione-main-clients-wrapper-item">
-          PubGmobile
+          <img src="@/assets/logo/1.png" alt="">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          IT Park
+          <img src="@/assets/logo/2.png" alt="">
 
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Samsung
+          <img src="@/assets/logo/3.png" alt="Samsung">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Uzum
+          <img src="@/assets/logo/4.png" alt="Uzum">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          FlashEnergy
+          <img src="@/assets/logo/5.png" alt="FlashEnergy">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Korzinka
+          <img src="@/assets/logo/6.png" alt="Korzinka">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Amirsoy
+          <img src="@/assets/logo/7.png" alt="Amirsoy">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Яндекс
+          <img src="@/assets/logo/8.png" alt="Яндекс">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Honor
+          <img src="@/assets/logo/9.png" alt="Honor">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Mi
+          <img src="@/assets/logo/11.png" alt="" class="ione-main-clients-wrapper-item-img">
         </h2>
         <h2 class="ione-main-clients-wrapper-item">
-          Westminster
+          <img src="@/assets/logo/20.png" alt="">
         </h2>
-        <h2 class="ione-main-clients-wrapper-item">
-          Министерство цифровых технологий
+          <h2 class="ione-main-clients-wrapper-item">
+          Ваше лого
         </h2>
 
       </div>
     </section>
 
     <section id="contact" class="ione-main-contact">
-      <h2 class="ione-main-services-h2" v-reveal>05 <br> ЕСТЬ ВОПРОСЫ?</h2>
+      <h2 class="ione-main-services-h2" v-reveal>ЕСТЬ ВОПРОСЫ?</h2>
       <p class="ione-main-contact-p" v-reveal="{ delay: 100 }">Оставьте заявку или позвоните нам, <br> и мы с
         удовольствием поможем вам разобраться в вашем кейсе</p>
 
